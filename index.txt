@@ -3,13 +3,13 @@
 
 <h3>We've run into some technical problem.</h3>
 <h3>We are sorry for the late update.</h3>
-<h3>We now aim to launch it on June 1, 2020</h3>
+<h3>We now aim to launch it on June 1, 2020.</h3>
 <h3>Thank you for your patience.</h3>
 
 <h1>FAQs</h1><br>
 <h3>Who are this "we"?</h3>
 <h3>We are not we. It is just me- Dipen Kumar.</h3><br>
-<h3>What exactly is BeMotivated Network</h3>
+<h3>What exactly is BeMotivated Network?</h3>
 <h3>BeMotivated Network- encouraging young writers</h3><br>
 
 <h2>Special Mention</h2>
