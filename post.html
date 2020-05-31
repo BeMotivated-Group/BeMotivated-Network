@@ -4,22 +4,22 @@
         <link rel="stylesheet" href ="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <title>IITD Email Verification</title>
+        <title>BeMotivated | Post your Story</title>
     </head>
     <body>
 
-    <center><h1 style="color:#fff">BeMotivated : Create New Account </h1></center>
+    <center><h1 style="color:#fff">BeMotivated : Post your Story</h1></center>
 <center>
 
 <form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
-<h2 style="color: white;">Your Registered Kerberos username </h2>
-        <input id="entrynum" placeholder="" type="text" pattern="[a-z]+[0-9]+" required></br>
+<h2 style="color: white;">Enter your Kerberos ID</h2>
+        <input id="entrynum" placeholder="CS5180XXX" type="text" pattern="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" required></br>
         <h2 style="color: white;">Enter your BeMotivated Password </h2>
-        <input id="password" placeholder="" type="password" required></br>
-        <h2 style="color: white;">Heading of your Blog </h2>
-        <input id="heading" style="width: 90%; border: 1px solid black; font-family: cursive;" placeholder="Let's Start it!!" type="text" required></br>
+        <input id="password" placeholder="BeMotivated Password" type="password" required></br>
+        <h2 style="color: white;">Title of your Story</h2>
+        <input id="heading" placeholder="Be Creative" type="text" required></br>
         <h2 style="color: white;">Post Your Blog Here :  </h2>
-        <textarea id="content" type="text" placeholder="Remember, be nice!" required></textarea></br>
+        <textarea id="content" placeholder="Remember, be nice to others!" type="text" required></textarea></br>
         </br>
 <button id="send" type="submit" class="common_btn">Post</button>
 </form> </center>
