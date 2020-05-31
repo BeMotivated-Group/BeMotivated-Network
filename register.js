@@ -12,6 +12,7 @@ function postToGoogle() {
             {
 
               $('#form').hide();
+              alert("Mail has been sent. Soon you will get an otp on your webmail.");
               window.open("signup.html", "_top");
             }
                 });
