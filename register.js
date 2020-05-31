@@ -12,7 +12,7 @@ function postToGoogle() {
             {
 
               $('#form').hide();
-              window.open("create2.html", "_top");
+              window.open("signup.html", "_top");
             }
                 });
         return false;
