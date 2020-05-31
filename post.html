@@ -12,19 +12,17 @@
 <center>
 
 <form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
-<h2 style="color: white;">Your Registered Entry Number </h2>
-        <input id="entrynum" placeholder="" type="text" required></br>
+<h2 style="color: white;">Your Registered Kerberos username </h2>
+        <input id="entrynum" placeholder="" type="text" pattern="[a-z]+[0-9]+" required></br>
         <h2 style="color: white;">Enter your BeMotivated Password </h2>
         <input id="password" placeholder="" type="password" required></br>
         <h2 style="color: white;">Heading of your Blog </h2>
-        <input id="heading" placeholder="" type="text" required></br>
+        <input id="heading" style="width: 90%; border: 1px solid black; font-family: cursive;" placeholder="Let's Start it!!" type="text" required></br>
         <h2 style="color: white;">Post Your Blog Here :  </h2>
-        <textarea id="content" type="text" placeholder="" required></textarea></br>
-        <h2 style="color: white;">Insert an Image (If you want!) </h2>
-        <p style="color: white"> Warning : Image should be renamed as your_entry_number.jpeg.</p> 
-        <iframe src="https://script.google.com/macros/s/AKfycbypRINw_1XCpjFRiV1_9Xx31Pl-02sH0WnMwAs5NcVHRmBGVLo/exec" width="300" height="150"></iframe></br>
+        <textarea id="content" type="text" placeholder="Remember, be nice!" required></textarea></br>
+        </br>
 <button id="send" type="submit" class="common_btn">Post</button>
 </form> </center>
-<script src="register.js"></script>
+<script src="post.js"></script>
 </body>
 </html>
