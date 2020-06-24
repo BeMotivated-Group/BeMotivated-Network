@@ -50,7 +50,7 @@ form {
 }
 
 .vl4 {
-    border-right: 2px solid white;
+    
     height: 50px;
     position: absolute;
     margin-left: 20px;
@@ -113,7 +113,7 @@ button[type=submit] {
 button[type=create] {
     font-family: Sometimes;
     background-color: #93649B;
-    width: 350px;
+    width: 45%;
     height: 50px;
     border-radius: 25px;
     color: white;
@@ -132,7 +132,7 @@ button[type=list] {
     border-radius: 25px;
     color: white;
     padding: 12px 20px 12px 20px;
-    margin: 0px 55px 32px 55px;
+    margin: 0px 5% 32px 0px;
     border: none;
     cursor: pointer;
     font-size: 20px;
@@ -150,9 +150,47 @@ button[type=submit]:hover {
     background-color: #3A3A3A;
 }
 
-@media screen and (max-width: 300px) {
+@media (max-width: 300px) {
     span.psw {
         display: block;
         float: none;
     }
+    form {
+        width:90%;
+    }
+    .vl2 {
+        border-right:0px;
+    }
+    .vl3{
+        border-right:0px;
+    }
+    button[type=create]{
+        width: 90%;
+        
+    }
+    button[type=submit]{
+        width: 90%;
+    }
 }
+@media (min-width:301px) and (max-width: 700px ){
+    .vl2 {
+        border-right:0px;
+    }
+     .vl3{
+        border-right:0px;
+    }
+    form {
+        width:90%;
+    }
+    button[type=create]{
+        width:70%;
+        height:55px;
+    }
+    button[type=submit]{
+        width:55%;
+    }
+}
+@media (min-width:701px) and (max-width:1000px){
+    form{width:90%;}
+}
+

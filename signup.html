@@ -4,13 +4,44 @@
 <link rel="stylesheet" href ="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 <title>BeMotivated | Signup Page</title>
+<style>
+    @media (max-width: 800px){
+        .a {
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        .b{
+            visibility: hidden;
+            width: 0%;
+        }
+        center {
+            float:left;
+            clear: left;
+            width: 100%;
+            margin-left: 0px;
+            margin-top: 3px;
+
+        }
+
+    }
+    @media (min-width:801px){
+        .a,.b{
+            width: 15%;
+        }
+        center {
+            width: 70%;
+            margin-left:15%;
+            padding-top: 30px; 
+        }
+    }
+</style>
 </head>
 <body>
-<img src="pic1.png" style="height:90px;width:240;position: absolute">
-<img src="pic2.png" style="height:90px;width:240;position:absolute;right:25px">
-<center><h1 style="color:#fff">BeMotivated : Create New Account</h1>
+<img class="a" src="pic1.png" style="height:90px;float:left;">
+<img class="b" src="pic2.png" style="height:90px;float:right;">
+<center><h1 style="color:#fff;width: 50%">BeMotivated : Create New Account</h1>
 <form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
 	<h2 style="color: white;">Enter your Kerberos ID</h2>
 	<input id="entrynumber" placeholder="CS5180XXX" type="text" pattern="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" required></br>

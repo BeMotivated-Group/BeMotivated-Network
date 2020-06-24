@@ -1,31 +1,74 @@
+<style>
+@media (max-width: 700px){
+	img{
+		width: 70%;
+		margin-left: 15%;
+		margin-right:15%;
+	}
+	center {
+		width: 100%;
+
+	}
+	.b{
+		width:100%;
+		margin-left:0%;
+	}
+}	
+@media (min-width:701px){
+	img{
+		position:absolute;
+		width: 20%;
+		margin-left:75%;
+	}
+	center {
+	    float:right;
+		width: 70%;
+		margin-right:2%;
+	
+	}
+	.b{
+		float:left;
+		width:25%;
+		margin-left:0%;
+	}
+	
+
+}
+</style>
+
+<img src="pic2.png" style="height:90px">
+<div class="head">
 <h1 style="color:#FF9200">Dipen Kumar</h1>
-<img src="pic2.png" style="float:right;height:90px;width:240;margin-top:-60px">
-<title>BeMotivated | CS5180098</title>
 <h1 style="color:#FF9200">CS5180098</h1>
+</div>
+
+<title>BeMotivated | CS5180098</title>
+
 
 <link rel="stylesheet" href ="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<form id="form" target="_self" autocomplete="off" onsubmit="return postToGoogle();" class="float-form"><center>
+
+<div class="b">
+<br>
+<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/post','_self')" style="margin-top:5px">POST</button><br>
+<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/CS5180098followers','_self')">FOLLOWERS</button><br>
+<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/CS5180098following','_self')">FOLLOWING</button><br>
+<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/CS5180098suggestions','_self')" style="margin-bottom: 25px">SUGGESTIONS</button><br><br>
+<br>
+</div>
+<center>
+<form id="form" style="width: 75%" target="_self" autocomplete="off" onsubmit="return postToGoogle();">
 <h2 style="color: white;">Enter your Kerberos ID</h2>
 <input id="kerberos" placeholder="CS5180XXX" type="text" pattern="[A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" required></br>
 <h2 style="color: white;">Enter your BeMotivated Password</h2>
-<input id="password" placeholder="BeMotivated Password" type="password" required></br>
+<input id="password" placeholder="BeMotivated Password" type="password" required></input>
 <button id="send" type="submit" class="common_btn">FOLLOW</button>
-</center></form>
+</form></center>
 <script src="CS5180098.js"></script>
 
-<div class="hl"></div>
-<div class="vl"></div>
-
-<br><br>
-<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/post','_self')">POST</button><br>
-<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/CS5180098followers','_self')">FOLLOWERS</button><br>
-<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/CS5180098following','_self')">FOLLOWING</button><br>
-<button id="send" type="list" class="common_btn" onClick="javascript: window.open('https://krdipen.github.io/BeMotivated/CS5180098suggestions','_self')">SUGGESTIONS</button><br><br>
-
-<hr style="margin-left: -20; margin-right: -20; margin-top: 6px; margin-bottom: 30px; border: 1px solid white">
+<hr style="margin-left: -20; margin-right: -20; margin-bottom: 30px; border: 1px solid white">
 <h1 style="color:#F7DC6F"><a style="text-decoration:none; color:#4064d7" href="https://krdipen.github.io/BeMotivated/CS5180098">CS5180098 &nbsp</a>Dipen Kumar</h1>
 <h2 style="font-size:28px; color:#13E35E">Welcome Letter</h2>
 <p style="font-size:20px">Hi! I am Dipen, Welcome to BeMotivated Network. This is a blogging network closed to the IIT Delhi community. It is owned and operated by BeMotivated Group. It was created for learning purposes. Learning is not limited to lecture halls. Sometimes, it becomes too tense and gives us nothing more than stress. This is my first practical, real-world computer-science fun creation, which was a great learning experience. BeMotivated Network aims to provide every IITD student a platform to express themselves through their stories, memes, or any other content. It encourages your creativity and promotes poet, writer, or memer within you. BeMotivated Network aims to help everyone fight their daily life boredom. It aims to provide its community with a quality break from their hectic work. If you are an IIT Delhi student, you need this. It will relax you every time you feel stressed. It will entertain you every time you feel bored. It will recharge you every time you feel drained. It will motivate you every time you feel low. To know more about BeMotivated Group visit <a style="text-decoration:none; color:#4064d7" href="http://bemotivated4.unaux.com/about">http://bemotivated4.unaux.com/about</a> and to contact it visit <a style="text-decoration:none; color:#4064d7" href="http://bemotivated4.unaux.com/contact">http://bemotivated4.unaux.com/contact</a></p>
